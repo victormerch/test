@@ -1,0 +1,12 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    Label:
+        id: label
+        text: 'Presiona el botón'
+
+    Button:
+        text: 'Púlsame'
+        on_press: app.on_button_press(self)
